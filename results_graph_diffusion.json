@@ -22,7 +22,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 18,
-        "safe_region": 1
+        "safe_region": 1,
+        "exp_harm_total": 256.0,
+        "rep_harm_total": 70.0
       },
       {
         "condition": "baseline",
@@ -35,7 +37,9 @@
         "ReplayRet": 1.0,
         "n_regions": 28,
         "harm_region": 18,
-        "safe_region": 19
+        "safe_region": 19,
+        "exp_harm_total": 71.0,
+        "rep_harm_total": 131.0
       },
       {
         "condition": "baseline",
@@ -48,7 +52,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 15,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 98.0,
+        "rep_harm_total": 41.0
       },
       {
         "condition": "baseline",
@@ -61,7 +67,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 7
+        "safe_region": 7,
+        "exp_harm_total": 115.0,
+        "rep_harm_total": 62.0
       },
       {
         "condition": "baseline",
@@ -74,7 +82,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 71.0,
+        "rep_harm_total": 113.0
       },
       {
         "condition": "baseline",
@@ -87,7 +97,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 4,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 150.0,
+        "rep_harm_total": 47.0
       },
       {
         "condition": "baseline",
@@ -100,7 +112,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 11,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 62.0,
+        "rep_harm_total": 66.0
       },
       {
         "condition": "baseline",
@@ -113,7 +127,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 7,
-        "safe_region": 25
+        "safe_region": 25,
+        "exp_harm_total": 183.0,
+        "rep_harm_total": 50.0
       },
       {
         "condition": "baseline",
@@ -126,7 +142,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 25,
-        "safe_region": 2
+        "safe_region": 2,
+        "exp_harm_total": 114.0,
+        "rep_harm_total": 249.0
       },
       {
         "condition": "baseline",
@@ -139,7 +157,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 64.0,
+        "rep_harm_total": 72.0
       },
       {
         "condition": "baseline",
@@ -152,7 +172,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 5,
-        "safe_region": 10
+        "safe_region": 10,
+        "exp_harm_total": 82.0,
+        "rep_harm_total": 155.0
       },
       {
         "condition": "baseline",
@@ -165,7 +187,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 24,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 72.0,
+        "rep_harm_total": 95.0
       },
       {
         "condition": "baseline",
@@ -178,7 +202,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 1,
-        "safe_region": 8
+        "safe_region": 8,
+        "exp_harm_total": 98.0,
+        "rep_harm_total": 57.0
       },
       {
         "condition": "baseline",
@@ -191,7 +217,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 60.0,
+        "rep_harm_total": 174.0
       },
       {
         "condition": "baseline",
@@ -204,7 +232,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 8,
-        "safe_region": 15
+        "safe_region": 15,
+        "exp_harm_total": 171.0,
+        "rep_harm_total": 57.0
       },
       {
         "condition": "baseline",
@@ -217,7 +247,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 19,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 183.0
       },
       {
         "condition": "baseline",
@@ -230,7 +262,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 13,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 130.0,
+        "rep_harm_total": 96.0
       },
       {
         "condition": "baseline",
@@ -243,7 +277,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 0,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 118.0,
+        "rep_harm_total": 109.0
       },
       {
         "condition": "baseline",
@@ -256,7 +292,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 25,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 191.0,
+        "rep_harm_total": 137.0
       },
       {
         "condition": "baseline",
@@ -269,7 +307,9 @@
         "ReplayRet": 1.0,
         "n_regions": 23,
         "harm_region": 15,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 33.0,
+        "rep_harm_total": 91.0
       }
     ]
   },
@@ -296,7 +336,9 @@
         "ReplayRet": 0.7272727272727273,
         "n_regions": 27,
         "harm_region": 18,
-        "safe_region": 1
+        "safe_region": 1,
+        "exp_harm_total": 40.0,
+        "rep_harm_total": 14.0
       },
       {
         "condition": "pm_variant",
@@ -309,7 +351,9 @@
         "ReplayRet": 0.7,
         "n_regions": 28,
         "harm_region": 18,
-        "safe_region": 19
+        "safe_region": 19,
+        "exp_harm_total": 30.0,
+        "rep_harm_total": 28.0
       },
       {
         "condition": "pm_variant",
@@ -322,7 +366,9 @@
         "ReplayRet": 0.20512820512820512,
         "n_regions": 26,
         "harm_region": 15,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 27.0,
+        "rep_harm_total": 9.0
       },
       {
         "condition": "pm_variant",
@@ -335,7 +381,9 @@
         "ReplayRet": 0.875,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 7
+        "safe_region": 7,
+        "exp_harm_total": 40.0,
+        "rep_harm_total": 14.0
       },
       {
         "condition": "pm_variant",
@@ -348,7 +396,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 32.0,
+        "rep_harm_total": 11.0
       },
       {
         "condition": "pm_variant",
@@ -361,7 +411,9 @@
         "ReplayRet": 0.36666666666666664,
         "n_regions": 27,
         "harm_region": 4,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 41.0,
+        "rep_harm_total": 16.0
       },
       {
         "condition": "pm_variant",
@@ -374,7 +426,9 @@
         "ReplayRet": 0.5192307692307693,
         "n_regions": 26,
         "harm_region": 11,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 24.0,
+        "rep_harm_total": 7.0
       },
       {
         "condition": "pm_variant",
@@ -387,7 +441,9 @@
         "ReplayRet": 0.21084337349397592,
         "n_regions": 27,
         "harm_region": 7,
-        "safe_region": 25
+        "safe_region": 25,
+        "exp_harm_total": 41.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "pm_variant",
@@ -400,7 +456,9 @@
         "ReplayRet": 0.47368421052631576,
         "n_regions": 27,
         "harm_region": 25,
-        "safe_region": 2
+        "safe_region": 2,
+        "exp_harm_total": 80.0,
+        "rep_harm_total": 14.0
       },
       {
         "condition": "pm_variant",
@@ -413,7 +471,9 @@
         "ReplayRet": 0.8333333333333334,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 38.0,
+        "rep_harm_total": 20.0
       },
       {
         "condition": "pm_variant",
@@ -426,7 +486,9 @@
         "ReplayRet": 0.5384615384615384,
         "n_regions": 25,
         "harm_region": 5,
-        "safe_region": 10
+        "safe_region": 10,
+        "exp_harm_total": 54.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "pm_variant",
@@ -439,7 +501,9 @@
         "ReplayRet": 0.8888888888888888,
         "n_regions": 26,
         "harm_region": 24,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 23.0,
+        "rep_harm_total": 14.0
       },
       {
         "condition": "pm_variant",
@@ -452,7 +516,9 @@
         "ReplayRet": 0.5789473684210527,
         "n_regions": 25,
         "harm_region": 1,
-        "safe_region": 8
+        "safe_region": 8,
+        "exp_harm_total": 35.0,
+        "rep_harm_total": 8.0
       },
       {
         "condition": "pm_variant",
@@ -465,7 +531,9 @@
         "ReplayRet": 0.18181818181818182,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "pm_variant",
@@ -478,7 +546,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 8,
-        "safe_region": 15
+        "safe_region": 15,
+        "exp_harm_total": 35.0,
+        "rep_harm_total": 13.0
       },
       {
         "condition": "pm_variant",
@@ -491,7 +561,9 @@
         "ReplayRet": 0.3783783783783784,
         "n_regions": 26,
         "harm_region": 19,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 35.0,
+        "rep_harm_total": 17.0
       },
       {
         "condition": "pm_variant",
@@ -504,7 +576,9 @@
         "ReplayRet": 0.8888888888888888,
         "n_regions": 25,
         "harm_region": 13,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 23.0
       },
       {
         "condition": "pm_variant",
@@ -517,7 +591,9 @@
         "ReplayRet": 0.6666666666666666,
         "n_regions": 26,
         "harm_region": 0,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 37.0,
+        "rep_harm_total": 9.0
       },
       {
         "condition": "pm_variant",
@@ -530,7 +606,9 @@
         "ReplayRet": 0.5,
         "n_regions": 26,
         "harm_region": 25,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 52.0,
+        "rep_harm_total": 15.0
       },
       {
         "condition": "pm_variant",
@@ -543,7 +621,9 @@
         "ReplayRet": 0.875,
         "n_regions": 23,
         "harm_region": 15,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 49.0,
+        "rep_harm_total": 19.0
       }
     ]
   },
@@ -570,7 +650,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 18,
-        "safe_region": 1
+        "safe_region": 1,
+        "exp_harm_total": 43.0,
+        "rep_harm_total": 89.0
       },
       {
         "condition": "rapo_off_replay",
@@ -583,7 +665,9 @@
         "ReplayRet": 1.0,
         "n_regions": 28,
         "harm_region": 18,
-        "safe_region": 19
+        "safe_region": 19,
+        "exp_harm_total": 50.0,
+        "rep_harm_total": 90.0
       },
       {
         "condition": "rapo_off_replay",
@@ -596,7 +680,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 15,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 22.0,
+        "rep_harm_total": 84.0
       },
       {
         "condition": "rapo_off_replay",
@@ -609,7 +695,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 7
+        "safe_region": 7,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 86.0
       },
       {
         "condition": "rapo_off_replay",
@@ -622,7 +710,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 34.0,
+        "rep_harm_total": 100.0
       },
       {
         "condition": "rapo_off_replay",
@@ -635,7 +725,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 4,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 33.0,
+        "rep_harm_total": 66.0
       },
       {
         "condition": "rapo_off_replay",
@@ -648,7 +740,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 11,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 26.0,
+        "rep_harm_total": 68.0
       },
       {
         "condition": "rapo_off_replay",
@@ -661,7 +755,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 7,
-        "safe_region": 25
+        "safe_region": 25,
+        "exp_harm_total": 41.0,
+        "rep_harm_total": 112.0
       },
       {
         "condition": "rapo_off_replay",
@@ -674,7 +770,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 25,
-        "safe_region": 2
+        "safe_region": 2,
+        "exp_harm_total": 66.0,
+        "rep_harm_total": 102.0
       },
       {
         "condition": "rapo_off_replay",
@@ -687,7 +785,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 64.0
       },
       {
         "condition": "rapo_off_replay",
@@ -700,7 +800,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 5,
-        "safe_region": 10
+        "safe_region": 10,
+        "exp_harm_total": 40.0,
+        "rep_harm_total": 64.0
       },
       {
         "condition": "rapo_off_replay",
@@ -713,7 +815,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 24,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 45.0,
+        "rep_harm_total": 71.0
       },
       {
         "condition": "rapo_off_replay",
@@ -726,7 +830,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 1,
-        "safe_region": 8
+        "safe_region": 8,
+        "exp_harm_total": 41.0,
+        "rep_harm_total": 53.0
       },
       {
         "condition": "rapo_off_replay",
@@ -739,7 +845,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 24.0,
+        "rep_harm_total": 61.0
       },
       {
         "condition": "rapo_off_replay",
@@ -752,7 +860,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 8,
-        "safe_region": 15
+        "safe_region": 15,
+        "exp_harm_total": 45.0,
+        "rep_harm_total": 81.0
       },
       {
         "condition": "rapo_off_replay",
@@ -765,7 +875,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 19,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 37.0,
+        "rep_harm_total": 37.0
       },
       {
         "condition": "rapo_off_replay",
@@ -778,7 +890,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 13,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 64.0,
+        "rep_harm_total": 63.0
       },
       {
         "condition": "rapo_off_replay",
@@ -791,7 +905,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 0,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 31.0,
+        "rep_harm_total": 199.0
       },
       {
         "condition": "rapo_off_replay",
@@ -804,7 +920,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 25,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 43.0,
+        "rep_harm_total": 278.0
       },
       {
         "condition": "rapo_off_replay",
@@ -817,7 +935,9 @@
         "ReplayRet": 1.0,
         "n_regions": 23,
         "harm_region": 15,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 50.0,
+        "rep_harm_total": 95.0
       }
     ]
   },
@@ -844,7 +964,9 @@
         "ReplayRet": 0.7272727272727273,
         "n_regions": 27,
         "harm_region": 18,
-        "safe_region": 1
+        "safe_region": 1,
+        "exp_harm_total": 42.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "rapo",
@@ -857,7 +979,9 @@
         "ReplayRet": 0.6,
         "n_regions": 28,
         "harm_region": 18,
-        "safe_region": 19
+        "safe_region": 19,
+        "exp_harm_total": 32.0,
+        "rep_harm_total": 13.0
       },
       {
         "condition": "rapo",
@@ -870,7 +994,9 @@
         "ReplayRet": 0.28205128205128205,
         "n_regions": 26,
         "harm_region": 15,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 23.0,
+        "rep_harm_total": 15.0
       },
       {
         "condition": "rapo",
@@ -883,7 +1009,9 @@
         "ReplayRet": 1.0,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 7
+        "safe_region": 7,
+        "exp_harm_total": 37.0,
+        "rep_harm_total": 12.0
       },
       {
         "condition": "rapo",
@@ -896,7 +1024,9 @@
         "ReplayRet": 1.0,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 33.0,
+        "rep_harm_total": 7.0
       },
       {
         "condition": "rapo",
@@ -909,7 +1039,9 @@
         "ReplayRet": 0.4,
         "n_regions": 27,
         "harm_region": 4,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 37.0,
+        "rep_harm_total": 12.0
       },
       {
         "condition": "rapo",
@@ -922,7 +1054,9 @@
         "ReplayRet": 0.3269230769230769,
         "n_regions": 26,
         "harm_region": 11,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 25.0,
+        "rep_harm_total": 19.0
       },
       {
         "condition": "rapo",
@@ -935,7 +1069,9 @@
         "ReplayRet": 0.09036144578313253,
         "n_regions": 27,
         "harm_region": 7,
-        "safe_region": 25
+        "safe_region": 25,
+        "exp_harm_total": 46.0,
+        "rep_harm_total": 12.0
       },
       {
         "condition": "rapo",
@@ -948,7 +1084,9 @@
         "ReplayRet": 0.5263157894736842,
         "n_regions": 27,
         "harm_region": 25,
-        "safe_region": 2
+        "safe_region": 2,
+        "exp_harm_total": 57.0,
+        "rep_harm_total": 9.0
       },
       {
         "condition": "rapo",
@@ -961,7 +1099,9 @@
         "ReplayRet": 0.8333333333333334,
         "n_regions": 27,
         "harm_region": 26,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 30.0,
+        "rep_harm_total": 12.0
       },
       {
         "condition": "rapo",
@@ -974,7 +1114,9 @@
         "ReplayRet": 0.23076923076923078,
         "n_regions": 25,
         "harm_region": 5,
-        "safe_region": 10
+        "safe_region": 10,
+        "exp_harm_total": 33.0,
+        "rep_harm_total": 4.0
       },
       {
         "condition": "rapo",
@@ -987,7 +1129,9 @@
         "ReplayRet": 1.0,
         "n_regions": 26,
         "harm_region": 24,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 39.0,
+        "rep_harm_total": 15.0
       },
       {
         "condition": "rapo",
@@ -1000,7 +1144,9 @@
         "ReplayRet": 0.5263157894736842,
         "n_regions": 25,
         "harm_region": 1,
-        "safe_region": 8
+        "safe_region": 8,
+        "exp_harm_total": 25.0,
+        "rep_harm_total": 7.0
       },
       {
         "condition": "rapo",
@@ -1013,7 +1159,9 @@
         "ReplayRet": 0.5,
         "n_regions": 25,
         "harm_region": 15,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 25.0,
+        "rep_harm_total": 16.0
       },
       {
         "condition": "rapo",
@@ -1026,7 +1174,9 @@
         "ReplayRet": 0.8333333333333334,
         "n_regions": 25,
         "harm_region": 8,
-        "safe_region": 15
+        "safe_region": 15,
+        "exp_harm_total": 38.0,
+        "rep_harm_total": 0.0
       },
       {
         "condition": "rapo",
@@ -1039,7 +1189,9 @@
         "ReplayRet": 0.2702702702702703,
         "n_regions": 26,
         "harm_region": 19,
-        "safe_region": 23
+        "safe_region": 23,
+        "exp_harm_total": 36.0,
+        "rep_harm_total": 14.0
       },
       {
         "condition": "rapo",
@@ -1052,7 +1204,9 @@
         "ReplayRet": 0.8888888888888888,
         "n_regions": 25,
         "harm_region": 13,
-        "safe_region": 3
+        "safe_region": 3,
+        "exp_harm_total": 48.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "rapo",
@@ -1065,7 +1219,9 @@
         "ReplayRet": 0.5833333333333334,
         "n_regions": 26,
         "harm_region": 0,
-        "safe_region": 9
+        "safe_region": 9,
+        "exp_harm_total": 43.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "rapo",
@@ -1078,7 +1234,9 @@
         "ReplayRet": 0.4166666666666667,
         "n_regions": 26,
         "harm_region": 25,
-        "safe_region": 13
+        "safe_region": 13,
+        "exp_harm_total": 41.0,
+        "rep_harm_total": 10.0
       },
       {
         "condition": "rapo",
@@ -1091,7 +1249,9 @@
         "ReplayRet": 0.875,
         "n_regions": 23,
         "harm_region": 15,
-        "safe_region": 17
+        "safe_region": 17,
+        "exp_harm_total": 35.0,
+        "rep_harm_total": 11.0
       }
     ]
   },

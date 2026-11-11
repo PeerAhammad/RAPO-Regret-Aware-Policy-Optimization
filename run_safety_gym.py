@@ -122,6 +122,7 @@ def run_one_seed(seed, condition):
     return dict(condition=condition, seed=seed, RAG=float(RAG), AUC_R=float(AUC_R),
                 scar_gap_at_replay=float(scar_gap_at_replay), ASD=ASD,
                 reached_goal_replay=bool(reached_rep),
+                exp_harm_total=float(harm_exp.sum()), rep_harm_total=float(harm_rep.sum()),
                 progress_deformed=int(progress_deformed),
                 progress_undeformed=int(progress_undeformed))
 

@@ -16,3 +16,14 @@ data/ml-25m/*.csv
 
 # Reddit corpus dataset
 reddit-corpus-small.corpus.zip
+
+# Datasets and downloaded files
+data/
+reddit-corpus-small.corpus.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary files
+.streamlit/secrets.toml

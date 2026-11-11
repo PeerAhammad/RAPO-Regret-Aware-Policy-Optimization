@@ -118,7 +118,8 @@ def run_one_seed(seed, condition, env, data_dir="data/ml-25m"):
 
     return dict(condition=condition, seed=seed, RAG=float(RAG), AUC_R=float(AUC_R),
                 scar_gap_at_replay=float(scar_gap_at_replay), ASD=ASD,
-                util_deformed=float(util_deformed), util_undeformed=float(util_undeformed))
+                util_deformed=float(util_deformed), util_undeformed=float(util_undeformed),
+                exp_harm_total=float(harm_exp.sum()), rep_harm_total=float(harm_rep.sum()))
 
 
 def summarize(rows, key):

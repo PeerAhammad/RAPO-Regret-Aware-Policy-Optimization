@@ -174,7 +174,8 @@ def run_one_seed(seed, condition, env=None, rng=None):
                 final_reach_replay=float(final_reach_rep),
                 final_reach_exposure=float(final_reach_exp),
                 ReplayRet=float(replay_ret),
-                n_regions=R, harm_region=int(env.r_harm), safe_region=int(env.r_safe))
+                n_regions=R, harm_region=int(env.r_harm), safe_region=int(env.r_safe),
+                exp_harm_total=float(harm_exp.sum()), rep_harm_total=float(harm_rep.sum()))
 
 
 def summarize(rows, key):

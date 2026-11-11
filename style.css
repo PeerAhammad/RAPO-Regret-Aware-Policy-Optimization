@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap');
+
+:root {
+  --cream: #f5f0e1;  --paper: #fbf8ee;  --line: #dcd6c2;
+  --sage: #4d6b57;   --sage-soft: #dfe8d6;  --sage-mid: #a9bfa3;
+  --sky: #2f6d95;    --sky-soft: #d9eaf5;
+  --sand: #b9975b;   --sand-soft: #f0e4c8;
+  --ink: #26302b;    --muted: #5b665f;
+  --radius: 14px;
+}
+
+html, body, .stApp, [data-testid="stAppViewContainer"] {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+[data-testid="stHeader"] { background: transparent; }
+.block-container { max-width: 1120px; padding-top: 2.2rem; padding-bottom: 4rem; }
+
+h1, h2, h3, h4 {
+  font-family: 'Bricolage Grotesque', 'Figtree', system-ui, sans-serif;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+h3 { font-size: 1.35rem; margin-top: 1.6rem; }
+p, li, label, [data-testid="stCaptionContainer"] { line-height: 1.6; }
+[data-testid="stCaptionContainer"], [data-testid="stCaptionContainer"] * { color: var(--muted); opacity: 1; }
+[data-testid="stCaptionContainer"] { max-width: 75ch; }
+.stMarkdown p, .stMarkdown li { max-width: 75ch; }
+
+/* ---------- hero ---------- */
+.hero {
+  background: var(--sage-soft);
+  border: 1px solid var(--sage-mid);
+  border-radius: 20px;
+  padding: 2.2rem 2.4rem 2rem;
+  margin-bottom: 1.6rem;
+}
+.hero h1 {
+  font-size: clamp(1.9rem, 4.2vw, 2.9rem);
+  line-height: 1.08; font-weight: 700; margin: 0 0 .7rem; padding: 0;
+}
+.hero .lede { font-size: 1.08rem; color: var(--ink); max-width: 62ch; margin: 0 0 1.5rem; }
+.phases { display: flex; align-items: stretch; gap: .6rem; flex-wrap: wrap; }
+.phase {
+  flex: 1 1 200px; border-radius: var(--radius); padding: .85rem 1rem;
+  border: 1px solid rgba(38, 48, 43, .14); color: var(--ink);
+}
+.phase strong { display: block; font-family: 'Bricolage Grotesque', system-ui, sans-serif; font-size: 1.1rem; margin-bottom: .15rem; }
+.phase span { font-size: .93rem; color: var(--ink); }
+.phase.p1 { background: var(--sky-soft); }
+.phase.p2 { background: var(--sand-soft); }
+.phase.p3 { background: var(--paper); }
+.chev { align-self: center; font-size: 1.6rem; color: var(--sage); line-height: 1; }
+
+/* ---------- tabs as pills ---------- */
+[role="tablist"], .stTabs [data-baseweb="tab-list"] {
+  gap: .5rem; border-bottom: none !important; box-shadow: none !important; padding-bottom: .5rem;
+}
+[role="tablist"]::before, [role="tablist"]::after { display: none !important; }
+[data-testid="stTabs"] > div:first-child { border-bottom: none !important; }
+[data-testid="stTab"], .stTabs [data-baseweb="tab"] {
+  background: var(--paper); border: 1px solid var(--line); border-radius: 999px;
+  padding: .5rem 1.2rem; height: auto; color: var(--ink);
+}
+[data-testid="stTab"] p, .stTabs [data-baseweb="tab"] p { font-weight: 600; font-size: .98rem; color: var(--ink); }
+[data-testid="stTab"][aria-selected="true"], .stTabs [aria-selected="true"] {
+  background: var(--sage); border-color: var(--sage);
+}
+[data-testid="stTab"][aria-selected="true"] p, .stTabs [aria-selected="true"] p { color: #ffffff; }
+[data-testid="stTab"]:hover:not([aria-selected="true"]) { background: var(--sage-soft); }
+.stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none; }
+[role="tablist"] > :not([role="tab"]) { display: none !important; }
+[class*="SelectionIndicator"] { display: none !important; }
+
+/* ---------- settings panel ---------- */
+[data-testid="stForm"] {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: 16px; padding: 1.3rem 1.5rem;
+}
+[data-testid="stBaseButton-secondaryFormSubmit"], [data-testid="stFormSubmitButton"] button, .stButton > button {
+  background: var(--sage); color: #ffffff; border: none; border-radius: 999px;
+  padding: .55rem 1.6rem; font-weight: 600;
+}
+[data-testid="stBaseButton-secondaryFormSubmit"]:hover, [data-testid="stFormSubmitButton"] button:hover, .stButton > button:hover {
+  background: #3d5846; color: #ffffff;
+}
+[data-testid="stBaseButton-secondaryFormSubmit"] p, [data-testid="stFormSubmitButton"] button p { color: #ffffff; }
+
+/* ---------- result cards ---------- */
+[data-testid="stMetric"] {
+  background: var(--paper); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 1rem 1.1rem;
+}
+[data-testid="stMetricLabel"] p { color: var(--muted); font-size: .92rem; }
+[data-testid="stMetricValue"] { font-family: 'Bricolage Grotesque', system-ui, sans-serif; color: var(--ink); }
+[data-testid="stMetricDelta"] { color: var(--muted) !important; }
+[data-testid="stMetricDelta"] svg { display: none; }
+
+[data-testid="stAlert"] { border-radius: var(--radius); }
+[data-testid="stDataFrame"], [data-testid="stTable"] { border-radius: var(--radius); }
+
+/* ---------- misc ---------- */
+.callout {
+  background: var(--sky-soft); border-left: 4px solid var(--sky);
+  border-radius: 0 var(--radius) var(--radius) 0; padding: .8rem 1.1rem; margin: 1rem 0;
+  max-width: 75ch;
+}
+.site-footer {
+  margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: .9rem;
+}
+.site-footer a { color: var(--sky); }
+
+:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+
+@media (max-width: 720px) {
+  .hero { padding: 1.5rem 1.2rem; }
+  .chev { display: none; }
+}
+
+/* hide Streamlit chrome that reads as "app" rather than "site" */
+[data-testid="stAppDeployButton"], .stDeployButton, footer { display: none !important; }
